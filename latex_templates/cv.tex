@@ -1,0 +1,330 @@
+%-------------------------
+% Resume in Latex
+% Author : Harshibar
+% Based off of: https://github.com/jakeryang/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{graphicx}
+% only for pdflatex
+% \input{glyphtounicode}
+
+% fontawesome
+\usepackage{fontawesome5}
+
+% fixed width
+\usepackage[scale=0.90,lf]{FiraMono}
+
+% light-grey
+\definecolor{light-grey}{gray}{0.83}
+\definecolor{dark-grey}{gray}{0.3}
+\definecolor{text-grey}{gray}{.08}
+\definecolor{accent-blue}{rgb}{0.12,0.31,0.47}
+\definecolor{accent-teal}{rgb}{0.06,0.45,0.43}
+
+\DeclareRobustCommand{\ebseries}{\fontseries{eb}\selectfont}
+\DeclareTextFontCommand{\texteb}{\ebseries}
+
+% custom underilne
+\usepackage{contour}
+\usepackage[normalem]{ulem}
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+
+% custom font: helvetica-style
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault}
+%% Only if the base font of the document is to be sans serif
+\usepackage[T1]{fontenc}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{0in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% sans serif sections
+\titleformat {\section}{
+    \color{accent-blue}\bfseries \vspace{2pt} \raggedright \large % header section
+}{}{0em}{}[\color{light-grey} {\titlerule[2pt]} \vspace{-4pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {\textbf{\color{accent-teal}#1}} & {\color{accent-blue}\small #2}\vspace{1pt}\\ % top row of resume entry
+      {\textit{\color{text-grey}\small #3}} & {\color{dark-grey} \small #4}\\ % second row of resume entry
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & {\color{dark-grey}} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+% Job-relevant highlights (University of Gothenburg PhD: Neuroimmunology / microglia, PAR 2026/292)
+\newcommand{\jobhl}[1]{\textbf{\color{accent-teal}#1}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+% CHANGED default leftmargin  0.15 in
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+\color{text-grey}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\renewcommand{\baselinestretch}{1.05}\selectfont
+
+%----------HEADING----------
+\noindent
+\begin{minipage}[t]{0.72\textwidth}
+    \vspace{0pt}% anchor tops of both columns on same horizontal line
+    \textbf{\Huge \color{accent-blue} Arina} \\ \vspace{6pt}
+    \small M.Sc.\ in Biochemistry \hspace{2pt} $|$ \hspace{2pt} Guest Researcher, Chalmers University of Technology \\ \vspace{6pt}
+    {\small\setlength{\tabcolsep}{0pt}%
+    \begin{tabular}{@{}r@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{\dimexpr\linewidth-2em}@{}}
+      \faEnvelope &
+        \texttt{arinazubair01@gmail.com} \\[4pt]
+      \faLinkedin &
+        \href{https://www.linkedin.com/in/arina-430a2124b/}{\myuline{\texttt{linkedin.com/in/arina-430a2124b}}} \\[4pt]
+      \faGithub &
+        \href{https://github.com/arinazubair}{\myuline{\texttt{github.com/arinazubair}}} \\[4pt]
+      \faPhone &
+        \href{tel:+917906615993}{\texttt{+91 7906615993}} \\
+    \end{tabular}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.22\textwidth}
+    \vspace{0pt}% match left column [t] anchor (name baseline vs.\ graphics box)
+    \raggedleft
+    \includegraphics[width=0.88\linewidth,keepaspectratio]{Arina_pc.png}
+\end{minipage}
+\vspace{6pt}
+
+%-----------STATEMENT-----------
+\section{STATEMENT OF RESEARCH INTEREST}
+\noindent\small \jobhl{Neuroimmunology}-oriented researcher combining mouse-brain \jobhl{immunofluorescence}, \jobhl{confocal} imaging, \jobhl{Western blotting}, \jobhl{ELISA}, and \jobhl{RNA}/PCR workflows with \jobhl{single-cell RNA-seq} and \jobhl{gene regulatory network} analysis of \jobhl{microglia}/glia in \jobhl{Alzheimer's disease}. I aim for doctoral training on innate immunity and \jobhl{microglial activation} in neurodegeneration.
+\vspace{2pt}
+
+%-----------EDUCATION-----------
+\renewcommand{\baselinestretch}{1.0}\selectfont
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Jamia Millia Islamia}{Aug. 2023 - May 2025}
+      {Master of Science in Biochemistry}{New Delhi, India}
+      \resumeItemListStart
+        \resumeItem{CGPA: 9.39/10 (A+); Second rank among 30 students}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Institute of Foreign Trade and Management}{Aug. 2020 - June 2023}
+      {Bachelor of Science in Biotechnology}{Moradabad, UP, India}
+      \resumeItemListStart
+        \resumeItem{CGPA: 9.84/10 (A+); Gold Medalist}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {St.\ Mary's Convent Sr.\ Sec.\ School}{2019 - 2020}
+      {Senior School Certificate Examination}{Amroha, India}
+      \resumeItemListStart
+        \resumeItem{Percentage: 93.2\% (A+)}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {St.\ Mary's Convent Sr.\ Sec.\ School}{2017 - 2018}
+      {All India Senior Secondary Examination}{Amroha, India}
+      \resumeItemListStart
+        \resumeItem{Percentage: 92.4\% (A+)}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\renewcommand{\baselinestretch}{1.05}\selectfont
+%-----------RESEARCH EXPERIENCE-----------
+\section{RESEARCH EXPERIENCE}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Chalmers University of Technology}{Feb. 2026 - Present}
+      {Guest Researcher (Remote)}{Sweden}
+      \resumeItemListStart
+        \resumeItem{\jobhl{Gene regulatory network (GRN)} analysis of \jobhl{microglia} and glial cell types across Braak stages and brain regions in \jobhl{Alzheimer's disease}; integration of \jobhl{multi-omics} and \jobhl{RNA-seq} data}
+        \resumeItem{Slides: \href{https://drive.google.com/file/d/1Hnw69l5rdIInBDMSecK8LMNyOf0a869M/view?usp=sharing}{\myuline{\texttt{Cell-Type/Region-Specific AD GRNs}}}}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {CSIR-Institute of Genomics and Integrative Biology}{Sep. 2025 - Feb. 2026}
+      {Project Assistant}{New Delhi, India}
+      \resumeItemListStart
+        \resumeItem{\jobhl{Neurodevelopment} research: timed mating and embryo collection (E12--E16), OCT embedding, and staged tissue processing across developmental time courses}
+        \item[] \textbf{\small Wet laboratory}\vspace{-2pt}
+        \resumeItem{Multi-marker \jobhl{immunofluorescence} (\jobhl{Sox2}, \jobhl{Tbr2}, \jobhl{NeuN}) with cryosectioning on embryonic and postnatal mouse brain; systematic antibody-panel optimisation}
+        \resumeItem{\jobhl{Confocal microscopy} acquisition and quantitative image analysis (\jobhl{Fiji}/ImageJ)}
+        \resumeItem{Mouse handling, \jobhl{genotyping}, and \jobhl{PCR}-based colony QC}
+        \item[] \textbf{\small Lab management}\vspace{-2pt}
+        \resumeItem{Managed lab operations including procurement, vendor communication, billing, and purchase documentation}
+        \resumeItem{Oversaw inventory and organization of lab supplies to ensure smooth daily workflows}
+        \resumeItem{Slides: \href{https://drive.google.com/file/d/1_xRf1zwxuu4OFgdGeNGpj0SQL0z3QF8l/view?usp=sharing}{\myuline{\texttt{IGIB Neurodevelopment Research Work}}}}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {International Centre for Genetic Engineering and Biotechnology}{Jan. 2025 - May 2025}
+      {Master's Thesis}{New Delhi, India}
+      \resumeItemListStart
+        \resumeItem{Project: \jobhl{Molecular cloning, expression, and purification of a lipid metabolism-associated protein from \textit{Plasmodium falciparum}}}
+        \resumeItem{Optimized heterologous expression and purification of the target protein}
+        \resumeItem{Protein expression and affinity purification for downstream structural and functional studies}
+        \resumeItem{\jobhl{Molecular biology and protein biochemistry}: competent cell preparation, bacterial transformation, SDS-PAGE, Western blotting (optimisation of lysis and detection conditions), affinity column chromatography, PCR}
+        \resumeItem{Slides: \href{https://drive.google.com/file/d/1sMM5jx5qvXhp1iXNr1mB-KJfzne_dYEm/view?usp=sharing}{\myuline{\texttt{Master's Thesis Presentation}}}}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {BRIC-Translational Health Science and Technology Institute}{June 2024}
+      {Internship}{Faridabad, India}
+      \resumeItemListStart
+        \resumeItem{Intensive laboratory training in protein biochemistry and \jobhl{RNA biology} techniques}
+        \resumeItem{Hands-on experience in protein purification (affinity chromatography), SDS-PAGE, \jobhl{cDNA synthesis}, and genotyping}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Rapture Biotech International Pvt.\ Ltd.}{July 2022}
+      {Internship}{Noida, India}
+      \resumeItemListStart
+        \resumeItem{Structured training in \jobhl{immunology} and immunoassays foundational for biomarker-style quantification (e.g.\ ELISA design, blocking, and signal calibration)}
+        \resumeItem{ELISA, rocket immunoelectrophoresis, radial immunodiffusion, immunoblotting/immunoprecipitation workflows; spectrophotometry; restriction digestion and DNA ligation, PCR, agarose gel electrophoresis, western blotting, DNA isolation}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\renewcommand{\baselinestretch}{1.0}\selectfont
+%-----------SKILLS-----------
+\section{SKILLS}
+\begin{itemize}[leftmargin=0.15in, itemsep=2pt]
+  \item \small \textbf{RESEARCH SKILLS}
+  \begin{itemize}[leftmargin=0.22in, label=$\vcenter{\hbox{\tiny$\bullet$}}$, itemsep=1pt, topsep=2pt, parsep=0pt]
+    \item \small \textbf{Histological and Imaging Techniques:} Cryosectioning of mouse brain tissue; multi-channel \jobhl{immunofluorescence}; \jobhl{confocal microscopy}; quantitative morphometry and intensity analysis (\jobhl{Fiji}/ImageJ).
+    \item \small \textbf{Molecular Biology Techniques:} DNA/\jobhl{RNA}/Plasmid isolation, bacterial transformation, \jobhl{cDNA synthesis}, \jobhl{PCR} and qPCR-ready workflows, restriction digestion, ligation, genotyping.
+    \item \small \textbf{Protein Biochemistry Techniques:} SDS PAGE, Protein expression and Protein purification (affinity chromatography), Western Blotting.
+    \item \small \textbf{Immunological Techniques:} Immunoblotting, ELISA, rocket immunoelectrophoresis, radial immunodiffusion, immunoprecipitation---experience relevant to cytokine and soluble-receptor readouts in complex matrices.
+  \end{itemize}
+  \item \small \textbf{COMPUTER SKILLS}
+  \begin{itemize}[leftmargin=0.22in, label=$\vcenter{\hbox{\tiny$\bullet$}}$, itemsep=1pt, topsep=2pt, parsep=0pt]
+    \item \small \textbf{Programming:} Python, R, Core Java
+    \item \small \textbf{Data analysis \& visualization:} NumPy, SciPy, Pandas; Matplotlib, Seaborn; GraphPad Prism
+    \item \small \textbf{Transcriptomics \& omics:} \jobhl{Differential gene expression}, \jobhl{single-cell RNA-seq} (Scanpy), \jobhl{GRN inference} with emphasis on \jobhl{microglia}/glia in neurodegeneration, \jobhl{multi-omics} integration; GSEA (GSEAPy); \jobhl{NGS}/\jobhl{RNA-seq} workflows
+    \item \small \textbf{Image analysis \& databases:} Fiji (ImageJ); MySQL
+    \item \small \textbf{Productivity:} MS Excel, PowerPoint, Word
+  \end{itemize}
+\end{itemize}
+\vspace{-2mm}
+
+%-----------PUBLICATIONS-----------
+\section{PUBLICATIONS}
+\begin{itemize}[leftmargin=0.15in]
+  \item \small Network-Based Discovery of \jobhl{Regulatory} Drivers of Cognitive Decline in Alzheimer's Disease (including \jobhl{microglia} and glial GRNs across Braak stages). Danish Anwer, \uline{Arina}, Agata Marchi, Eduard Kerkhoven, Annikka Polster. 2026. Under revision at \textit{npj Aging}.
+  \item \small SPHK1-S1P-S1PR1 signaling pathway is emerging as a potential therapeutic target in improving endothelial barrier function and prevent coronary artery disease. Abstract published in \textit{The Journal of Immunology}, Volume 210, Issue Supplement 1, May 2023. DOI: \href{https://doi.org/10.4049/jimmunol.210.Supp.70.02}{\myuline{10.4049/jimmunol.210.Supp.70.02}}
+  \item \small Acknowledged in: Cortical hem-like progenitors contribute pyramidal neurons to the neocortex and hippocampus. DOI: \href{https://doi.org/10.1016/j.ydbio.2026.02.012}{\myuline{10.1016/j.ydbio.2026.02.012}} (acknowledged for \jobhl{cryosectioning} and \jobhl{immunostaining})
+\end{itemize}
+\vspace{-4mm}
+
+%-----------CONFERENCES, WORKSHOPS AND CERTIFICATIONS-----------
+\section{CONFERENCES, WORKSHOPS AND CERTIFICATIONS}
+\begin{itemize}[leftmargin=0.15in]
+  \item \small \textbf{Certification:} ``Python for Genomic Data Science'' (Johns Hopkins University, Coursera)
+  \item \small 17th Annual Conference of the International Association of Neurorestoratology (IANR), Oct.\ 17-18, 2025
+  \item \small National Conference on Emerging Trends in Life Sciences, Feb.\ 1, 2025 (Department of Biosciences, JMI, New Delhi)
+  \item \small 1st International Interdisciplinary Science Congress: Young Scholars Meet, Oct.\ 9, 2024 (Centre for Interdisciplinary Research in Basic Sciences, JMI, New Delhi)
+  \item \small 2-day offline workshop on ``Molecular Genetics'', Jan.\ 27-28, 2024 (EdTech Life in association with Tryst'24, IIT Delhi, India)
+\end{itemize}
+\vspace{-2mm}
+
+%-----------HONOURS AND ACHIEVEMENTS-----------
+\section{HONOURS AND ACHIEVEMENTS}
+\begin{itemize}[leftmargin=0.15in]
+  \item \small Gold medal for \textbf{1st position} in B.Sc.\ Biotechnology
+  \item \small \textbf{Second rank} in Master's program among 30 students
+  \item \small \textbf{Second Runner-Up}, poster on ``Cardiac Cell Regeneration'', 103rd Foundation Day, Jamia Millia Islamia (2023)
+  \item \small \textbf{Winner}, poster on ``Modern Biology and Techniques'', 104th Foundation Day, Jamia Millia Islamia (2024)
+  \item \small \textbf{Hosted and anchored} the 104th Foundation Day Celebration and Teachers' Day at Jamia Millia Islamia (JMI) during Master’s program; \textbf{actively hosted and anchored} multiple school events, including annual functions and celebrations
+  \item \small \textbf{Cultural Captain} of the school during high school; \textbf{Class representative} during Master’s program
+\end{itemize}
+\vspace{-2mm}
+
+%-----------LANGUAGES-----------
+\section{LANGUAGES}
+\begin{itemize}[leftmargin=0in, label={}]
+  \small{\item{
+    \textbf{English} {: Proficient (IELTS Band 7.5, 2025-2027)} \hspace{6pt} $|$ \hspace{6pt}
+    \textbf{Hindi} {: Proficient (Native)}
+  }}
+\end{itemize}
+
+%-----------REFERENCES-----------
+\section{REFERENCES}
+\begin{itemize}[leftmargin=0in, label={}]
+  \small{\item{
+    \textbf{Dr.\ Annikka Polster} (Assistant Professor, Systems Biology, Life Sciences, Chalmers University of Technology), Sweden; \href{mailto:annikka@chalmers.se}{\myuline{annikka@chalmers.se}}
+  }}
+  \small{\item{
+    \textbf{Dr.\ Arpan Parichha} (Scientist, CSIR-IGIB; Assistant Professor, AcSIR), New Delhi, India, Room 108, CSIR-IGIB, Sukhdev Vihar, Mathura Road, New Delhi-110025; \href{mailto:arpan.igib@csir.res.in}{\myuline{arpan.igib@csir.res.in}}
+  }}
+  \small{\item{
+    \textbf{Dr.\ Mohamad Aman Jairajpuri} (Professor, Protein Conformation and Enzymology Lab, Dept.\ of Biosciences, Jamia Millia Islamia), New Delhi, India; \href{mailto:mjairajpuri@jmi.ac.in}{\myuline{mjairajpuri@jmi.ac.in}}
+  }}
+\end{itemize}
+
+%-------------------------------------------
+\end{document}

@@ -1,0 +1,43 @@
+# Cold Email Template
+# Claude fills this scaffold using arina_profile.md + pi_database.md
+# Save output as: outputs/emails/email_<slug>.txt
+# ─────────────────────────────────────────────────────────────────────────────
+# RULES:
+# - Subject line first, then body
+# - ≤250 words total
+# - Open with a specific finding from the PI's key paper — NOT "I am writing to express"
+# - Name Arina's actual techniques (antibody names, instruments) in paragraph 2
+# - Mention npj Aging paper briefly as a bonus point
+# - End with a clear, specific ask
+# - Tone: confident, collegial, not groveling
+# ─────────────────────────────────────────────────────────────────────────────
+
+Subject: PhD Enquiry — [PI-specific angle, e.g., "Microglial IF & Innate Immunity — Prospective PhD Candidate"]
+
+Dear Prof./Dr. [Last Name],
+
+[PARAGRAPH 1 — HOOK: 2–3 sentences]
+Reference a SPECIFIC finding from the PI's key paper. State why that finding
+connects to Arina's own research direction. One sentence on the broader
+scientific problem.
+
+[PARAGRAPH 2 — SKILLS: 3–4 sentences]
+Name Arina's most relevant wet-lab experience for this lab.
+Be specific: name antibodies, instruments, cell types, techniques.
+Connect directly to what this lab does (match vocabulary from pi_database.md).
+Example: "At CSIR-IGIB, I optimised a Sox2/Tbr2/NeuN three-marker panel on
+E14 mouse cryosections, acquiring z-stacks on a confocal microscope and
+quantifying cell counts with Fiji/ImageJ..."
+
+[PARAGRAPH 3 — COMPUTATIONAL BONUS + PUBLICATION: 2 sentences]
+Mention Chalmers GRN/microglia/AD paper (under revision, npj Aging) briefly.
+Frame it as a complement to wet-lab skills, not the focus.
+
+[PARAGRAPH 4 — ASK: 2 sentences]
+Clear, specific request: PhD position, potential rotation, or 20-minute call
+to discuss fit. Attach CV and link to relevant slides.
+
+Best regards,
+Arina
+arinazubair01@gmail.com | +91 7906615993
+[Attach: cv_<slug>.pdf | Slides: [relevant Google Drive link from arina_profile.md]]

@@ -1,0 +1,105 @@
+% Motivation Letter Template for Arina
+% Claude fills this template using arina_profile.md + pi_database.md + motivation_tips.md
+% Save output as: outputs/motivation_letters/motivation_<slug>.tex
+% Compile: pdflatex motivation_<slug>.tex
+%
+% RULES FOR CLAUDE WHEN FILLING THIS TEMPLATE:
+% - 400–500 words, never more than 1.5 pages
+% - P1: Hook with specific PI paper finding, NOT "I am writing to express"
+% - P2: Research arc — IGIB wet-lab → Chalmers GRN → why this PI
+% - P3: Specific technique fit — name exact antibodies, instruments, software
+% - P4: Forward-looking question or research idea
+% - P5: Concise close with clear ask
+% - Apply ALL rules from motivation_tips.md
+% ─────────────────────────────────────────────────────────────────────────────
+
+\documentclass[11pt,a4paper]{letter}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.8cm, right=2.8cm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\usepackage{setspace}
+
+% Colors
+\usepackage{xcolor}
+\definecolor{accent}{rgb}{0.12,0.31,0.47}
+\definecolor{textgrey}{gray}{0.15}
+
+\color{textgrey}
+\setstretch{1.15}
+
+% Remove default letter formatting clutter
+\makeatletter
+\let\@texttop\relax
+\makeatother
+
+\address{
+  \textbf{\color{accent}Arina}\\
+  arinazubair01@gmail.com\\
+  +91 7906615993\\
+  \href{https://www.linkedin.com/in/arina-430a2124b/}{linkedin.com/in/arina-430a2124b}
+}
+
+\date{\today}
+
+\begin{document}
+
+\begin{letter}{
+  \textbf{[PI FULL NAME AND TITLE]}\\
+  [Role]\\
+  [Institution]\\
+  [City, Country]
+}
+
+\opening{Dear [Prof./Dr.] [Last Name],}
+
+% ── PARAGRAPH 1: Hook + specific paper finding (3–4 sentences) ──────────────
+% Open with the scientific problem or a finding from the PI's key paper.
+% Do NOT start with "I am writing to express my interest."
+% Example opener: "Your 2019 Nature Neuroscience study demonstrated that human
+% microglia adopt a complexity of transcriptional states — including a CRM
+% signature absent in mouse models — that may fundamentally determine
+% vulnerability to Alzheimer's pathology."
+[PARAGRAPH 1]
+
+% ── PARAGRAPH 2: Research arc (4–5 sentences) ────────────────────────────────
+% Tell the story: IGIB wet-lab → Chalmers GRN → why this PI is the next step.
+% Name specific techniques and one concrete observation or result.
+% Example: "During my time as a Project Assistant at CSIR-IGIB under Dr. Arpan
+% Parichha, I established a Sox2/Tbr2/NeuN three-marker immunofluorescence
+% panel on embryonic mouse cryosections..."
+[PARAGRAPH 2]
+
+% ── PARAGRAPH 3: Specific fit with this lab (4–5 sentences) ──────────────────
+% Name 2–3 techniques this lab uses that Arina has performed.
+% Use the PI's vocabulary from pi_database.md.
+% Example: "Your group's multi-channel IF panels — combining IBA1, P2RY12, and
+% TREM2 with quantitative Fiji-based morphometry — mirror the approach I
+% developed at CSIR-IGIB..."
+[PARAGRAPH 3]
+
+% ── PARAGRAPH 4: Forward-looking (3–4 sentences) ─────────────────────────────
+% Propose a rough research direction or question that fits the lab's agenda.
+% Connect Arina's GRN results to the PI's methods where possible.
+% This is a conversation starter, not a contract.
+[PARAGRAPH 4]
+
+% ── PARAGRAPH 5: Close (2 sentences) ─────────────────────────────────────────
+% State what you are asking for. Do not use "at your earliest convenience."
+[PARAGRAPH 5]
+
+\closing{Sincerely,}
+
+\vspace{-6pt}
+\textbf{\color{accent}Arina}\\[4pt]
+\small
+Attached: CV \quad|\quad
+\href{[IGIB slides link]}{IGIB Neurodevelopment Slides} \quad|\quad
+\href{[Chalmers slides link]}{AD GRN Slides}
+
+\end{letter}
+\end{document}

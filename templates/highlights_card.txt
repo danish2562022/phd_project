@@ -1,0 +1,60 @@
+# Highlights & Talking Points Card
+# Claude fills this for each PI using arina_profile.md + pi_database.md
+# Save output as: outputs/highlights/highlights_<slug>.txt
+# Use before: interviews, follow-up emails, Zoom calls with PI
+# ─────────────────────────────────────────────────────────────────────────────
+
+TARGET PI: [Name + Institution]
+DATE GENERATED: [date]
+
+─────────────────────────────────────────────────────────────────────────────
+★ TOP 3 WET-LAB SKILLS TO LEAD WITH
+─────────────────────────────────────────────────────────────────────────────
+Each in 1–2 sentences. Name the antibody, instrument, or specific optimisation.
+
+1. [Skill + specific detail — e.g., "Three-marker IF (Sox2/Tbr2/NeuN) on E14
+   mouse cryosections with Zeiss confocal acquisition and Fiji morphometry"]
+
+2. [Skill + specific detail]
+
+3. [Skill + specific detail]
+
+─────────────────────────────────────────────────────────────────────────────
+★ STRONGEST SINGLE TALKING POINT
+─────────────────────────────────────────────────────────────────────────────
+The ONE connection between Arina's background and this lab that is hardest
+to replicate in any other candidate.
+
+[1–2 sentences]
+
+─────────────────────────────────────────────────────────────────────────────
+★ THE PAPER TO DISCUSS
+─────────────────────────────────────────────────────────────────────────────
+Paper: [Full citation from pi_database.md]
+
+Talking point 1: [Specific finding + how it connects to Arina's work]
+Talking point 2: [Follow-up question or extension you would propose]
+
+─────────────────────────────────────────────────────────────────────────────
+★ THE QUESTION TO ASK THE PI
+─────────────────────────────────────────────────────────────────────────────
+One sharp, specific scientific question that shows you have read their work.
+Not "What does the lab work on?" — something that requires knowing the paper.
+
+[Question]
+
+─────────────────────────────────────────────────────────────────────────────
+★ WHAT NOT TO LEAD WITH FOR THIS APPLICATION
+─────────────────────────────────────────────────────────────────────────────
+What to de-emphasise or mention only briefly for this specific PI.
+
+[e.g., "Computational GRN work — mention only as bonus; this PI cares about
+bench skills. Lead with IF, confocal, and Western blot."]
+
+─────────────────────────────────────────────────────────────────────────────
+★ QUICK REFERENCE — CONTACT & LINKS
+─────────────────────────────────────────────────────────────────────────────
+PI email:     [from pi_database.md]
+CV variant:   outputs/cv_variants/cv_<slug>.tex
+Email draft:  outputs/emails/email_<slug>.txt
+Mot. letter:  outputs/motivation_letters/motivation_<slug>.tex
