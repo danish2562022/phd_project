@@ -20,7 +20,7 @@
 ### DO ✅
 
 - **Reference a specific finding** from the PI's recent paper, not just the title
-  > ✅ "Your 2019 Nature Neuroscience paper showed that human microglia adopt a CRM state not found in mouse models — this distinction between species is central to my interest in working with human microglia models."
+  > ✅ "Your 2019 Nature Neuroscience paper showed that human microglia adopt a CRM state not found in mouse models; this distinction between species is central to my interest in working with human microglia models."
   > ❌ "I was impressed by your work on microglia."
 
 - **Name your actual techniques** — antibodies, instruments, software
@@ -28,11 +28,11 @@
   > ❌ "I have experience in immunofluorescence and microscopy."
 
 - **Connect past to future** — don't just describe what you did; explain how it points toward this lab
-  > ✅ "The antibody-panel troubleshooting I performed at CSIR-IGIB — three rounds of optimisation for antigen retrieval pH and blocking serum — gave me an intuition for the variables that matter in multi-marker panels. I want to apply this to microglial marker combinations in your lab."
+  > ✅ "The antibody-panel troubleshooting I performed at CSIR-IGIB (three rounds of optimisation for antigen retrieval pH and blocking serum) gave me an intuition for the variables that matter in multi-marker panels. I want to apply this to microglial marker combinations in your lab."
   > ❌ "I performed immunofluorescence experiments at CSIR-IGIB."
 
 - **Propose a forward-looking idea** — even a rough one shows you have thought about the future
-  > ✅ "I am curious whether the NLRP3 inflammasome activation you observe in APP/PS1 mice is altered in microglia that have been epigenetically reprogrammed by prior systemic LPS challenge — combining your inflammasome readouts with innate immune memory paradigms seems like a tractable question."
+  > ✅ "I am curious whether the NLRP3 inflammasome activation you observe in APP/PS1 mice is altered in microglia epigenetically reprogrammed by prior systemic LPS challenge. Combining your inflammasome readouts with innate immune memory paradigms seems like a tractable next question."
 
 - **Match the PI's vocabulary** — use terms from their Methods or Discussion section
   - If the PI says "disease-associated microglia (DAM)", use DAM
@@ -46,7 +46,7 @@
 
 ### DON'T ❌
 
-| Phrase | Why it fails |
+| Phrase / habit | Why it fails |
 |--------|-------------|
 | "I am writing to express my interest" | Every single letter starts this way. Skip it entirely |
 | "Since childhood I have been fascinated by science" | Vague, unverifiable, sounds like every other applicant |
@@ -56,6 +56,8 @@
 | "I hope to contribute to your research" | Vague; say HOW specifically |
 | Summarising your entire CV in paragraph form | The PI has your CV. Use the letter for what the CV cannot show |
 | Emotional tone / pleading | Academic letters are confident and collegial, not desperate |
+| **Em dashes ( — )** | Never use em dashes anywhere in any document. Replace with: a comma, a colon, a semicolon, or parentheses. Em dashes read as informal/journalistic in European academic writing. |
+| Overly formal or stiff phrasing | European PIs do not expect the same formality as US/UK letters. Stiff phrases like "I humbly submit", "I respectfully request", or ornate constructions signal you are following a template, not actually talking to a person. |
 
 ---
 
@@ -98,6 +100,41 @@ It must convince the PI that:
 2. You are already trained to do it
 3. This lab is the only logical next step
 4. Admitting you adds value to their research agenda
+
+---
+
+## Tone for European PIs — Read This Carefully
+
+European academic culture is meaningfully less formal than American or British conventions.
+Apply the following rules for ALL 12 PIs in this project (Germany, Belgium, Netherlands,
+Luxembourg, Switzerland, Spain, Denmark):
+
+### Salutation by country
+| Country | First contact greeting |
+|---------|----------------------|
+| Germany, Austria | "Dear Prof. [Last Name]," — acceptable; "Dear [First Name]," only after prior contact |
+| Netherlands, Belgium | "Dear Prof. [Last Name]," or "Dear [First Name]," — Dutch culture is direct; first name is fine |
+| Switzerland | "Dear Prof. [Last Name]," for first contact |
+| Spain | "Dear Prof. [Last Name]," or "Dear [First Name]," — collegial culture |
+| Denmark | "Dear [First Name]," is standard even for first contact; Scandinavian culture is flat-hierarchy |
+| Luxembourg | "Dear Prof. [Last Name]," |
+
+### Tone rules (apply to every document regardless of country)
+1. **Write like you are talking to a smart colleague, not applying for a visa.** Direct, clear sentences. No ornate constructions.
+2. **No flattery.** Do not write "your groundbreaking work", "your prestigious lab", "your renowned research group". Say what they found and why it matters scientifically.
+3. **No hedging.** Not "I believe I might be able to contribute" but "My confocal IF work at IGIB maps directly onto your microglial panel protocols."
+4. **No em dashes ( — ).** This is an absolute rule. Replace every em dash with a comma, colon, semicolon, or parentheses. No exceptions.
+5. **Short sentences win.** If a sentence needs an em dash or three commas to hold together, split it.
+6. **Closing:** "Best regards," or "Best," — not "Yours sincerely," or "Respectfully yours,". Those are overly formal for EU academic cold emails.
+7. **Sign as "Arina"** — not "Arina Zubair" in the sign-off line of casual cold emails (CV attached will have full name).
+8. **No American enthusiasm markers.** Not "I am thrilled to write to you", "I am incredibly excited", "It would be my dream". These read as hollow in European academic culture.
+
+### What European PIs respond well to
+- A specific scientific observation in line 1 (not about yourself)
+- Short, punchy paragraphs (4–5 sentences maximum per para)
+- One concrete experimental result from your own work
+- A forward-looking question that shows you have thought about their agenda
+- No wasted words: if a sentence does not add information, delete it
 
 ---
 

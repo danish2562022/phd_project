@@ -1,27 +1,39 @@
 # Cold Email Template
-# Claude fills this scaffold using arina_profile.md + pi_database.md
+# Claude fills this scaffold using (in priority order):
+#   1. pi_data/<slug>/summary.md   ← READ THIS FIRST
+#   2. arina_profile.md
+#   3. pi_database.md
 # Save output as: outputs/emails/email_<slug>.txt
 # ─────────────────────────────────────────────────────────────────────────────
 # RULES:
 # - Subject line first, then body
 # - ≤250 words total
-# - Open with a specific finding from the PI's key paper — NOT "I am writing to express"
-# - Name Arina's actual techniques (antibody names, instruments) in paragraph 2
-# - Mention npj Aging paper briefly as a bonus point
+# - BEFORE WRITING: read summary.md → KEY FINDINGS for P1, EXACT ANTIBODIES for P2
+# - Open with a SPECIFIC RESULT from KEY FINDINGS in summary.md
+#   NOT "I am writing to express my interest"
+#   YES: "Your finding that xenografted human microglia adopt an HLA-driven
+#         antigen-presentation state absent in mouse models reframes how we..."
+# - Name Arina's actual techniques (antibody names, instrument model if in summary.md)
+# - Mention npj Aging paper briefly as a bonus
 # - End with a clear, specific ask
 # - Tone: confident, collegial, not groveling
+# - NO EM DASHES ( — ) anywhere. Replace with comma, colon, semicolon, or parentheses.
+# - NO flattery ("thrilled", "groundbreaking", "prestigious", "world-class")
+# - NO hedging ("I believe I might", "I hope to be able to")
+# - Closing: "Best," or "Best regards," — never "Yours sincerely," or "Respectfully,"
+# - Salutation: "Dear Prof. [Last Name]," for most; "Dear [First Name]," for Danish PIs
 # ─────────────────────────────────────────────────────────────────────────────
 
-Subject: PhD Enquiry — [PI-specific angle, e.g., "Microglial IF & Innate Immunity — Prospective PhD Candidate"]
+Subject: PhD Enquiry: [PI-specific angle, e.g., "Microglial IF and Innate Immunity / Prospective PhD Candidate"]
 
 Dear Prof./Dr. [Last Name],
 
-[PARAGRAPH 1 — HOOK: 2–3 sentences]
+[PARAGRAPH 1 (HOOK, 2-3 sentences)]
 Reference a SPECIFIC finding from the PI's key paper. State why that finding
 connects to Arina's own research direction. One sentence on the broader
 scientific problem.
 
-[PARAGRAPH 2 — SKILLS: 3–4 sentences]
+[PARAGRAPH 2 (SKILLS, 3-4 sentences)]
 Name Arina's most relevant wet-lab experience for this lab.
 Be specific: name antibodies, instruments, cell types, techniques.
 Connect directly to what this lab does (match vocabulary from pi_database.md).
@@ -29,11 +41,11 @@ Example: "At CSIR-IGIB, I optimised a Sox2/Tbr2/NeuN three-marker panel on
 E14 mouse cryosections, acquiring z-stacks on a confocal microscope and
 quantifying cell counts with Fiji/ImageJ..."
 
-[PARAGRAPH 3 — COMPUTATIONAL BONUS + PUBLICATION: 2 sentences]
+[PARAGRAPH 3 (COMPUTATIONAL BONUS + PUBLICATION, 2 sentences)]
 Mention Chalmers GRN/microglia/AD paper (under revision, npj Aging) briefly.
 Frame it as a complement to wet-lab skills, not the focus.
 
-[PARAGRAPH 4 — ASK: 2 sentences]
+[PARAGRAPH 4 (ASK, 2 sentences)]
 Clear, specific request: PhD position, potential rotation, or 20-minute call
 to discuss fit. Attach CV and link to relevant slides.
 

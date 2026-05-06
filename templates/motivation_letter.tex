@@ -1,16 +1,63 @@
 % Motivation Letter Template for Arina
-% Claude fills this template using arina_profile.md + pi_database.md + motivation_tips.md
+% Claude fills this template using (in priority order):
+%   1. pi_data/<slug>/summary.md   ← READ THIS FIRST — exact quotes, findings, overlaps
+%   2. arina_profile.md            ← Arina's research arc, results, skills
+%   3. pi_database.md              ← PI contact details, methods vocabulary
+%   4. motivation_tips.md          ← writing principles
 % Save output as: outputs/motivation_letters/motivation_<slug>.tex
 % Compile: pdflatex motivation_<slug>.tex
 %
 % RULES FOR CLAUDE WHEN FILLING THIS TEMPLATE:
-% - 400–500 words, never more than 1.5 pages
-% - P1: Hook with specific PI paper finding, NOT "I am writing to express"
-% - P2: Research arc — IGIB wet-lab → Chalmers GRN → why this PI
-% - P3: Specific technique fit — name exact antibodies, instruments, software
-% - P4: Forward-looking question or research idea
-% - P5: Concise close with clear ask
-% - Apply ALL rules from motivation_tips.md
+% ──────────────────────────────────────────────────────────────────────────────
+% BEFORE WRITING:
+%   Read pi_data/<slug>/summary.md.
+%   Copy the KEY FINDINGS section into your working memory for P1.
+%   Copy the METHODS QUOTES section into your working memory for P3.
+%   Copy the OPEN QUESTIONS section into your working memory for P4.
+%   Copy the EXACT ANTIBODIES / INSTRUMENTS table into your working memory for P3.
+%
+% P1  (3–4 sentences) — Hook: cite a SPECIFIC result from KEY FINDINGS.
+%   NOT "I am writing to express my interest."
+%   NOT "Your lab's work on microglia is fascinating."
+%   YES: "Your 2024 Nature Neuroscience paper showed that xenografted human
+%         microglia adopt a distinct HLA-driven antigen-presentation state in
+%         response to Aβ oligomers (a response absent in mouse microglia), which
+%         suggests that therapeutic targeting will require human-specific models."
+%
+% P2  (4–5 sentences) — Research arc.
+%   IGIB wet-lab → Chalmers GRN → this PI as the natural next step.
+%   Name one concrete result from arina_profile.md Research Data Notes.
+%
+% P3  (4–5 sentences) — Technique fit.
+%   Use METHODS QUOTES from summary.md. Match exact antibody names, instrument
+%   model numbers, and software from the PI's own paper.
+%   YES: "The same antibody panel your lab uses on Aβ-seeded sections (IBA1,
+%         Wako 019-19741, 1:500; P2RY12, Sigma HPA014518, 1:200) is the approach
+%         I optimised at IGIB for Sox2/Tbr2/NeuN on E14 mouse brain."
+%
+% P4  (3–4 sentences) — Forward-looking.
+%   Seed from OPEN QUESTIONS in summary.md.
+%   Connect to Arina's Chalmers finding (SPP1+/TREM2+ hubs at Braak 4–5).
+%
+% P5  (2 sentences) — Close with specific ask.
+%   State: PhD position / 20-minute call / rotation. Attach CV and slides.
+%   NOT "at your earliest convenience."
+%
+% FORMATTING RULES (absolute, no exceptions):
+%   NO EM DASHES ( — ) anywhere in the output. Replace with comma, colon,
+%   semicolon, or parentheses. Search your output for " — " before saving.
+%
+% TONE RULES (European academic):
+%   - Direct and collegial, not formal or stiff
+%   - No flattery ("groundbreaking", "prestigious", "world-class", "thrilled")
+%   - No hedging ("I believe I might", "I hope to be able to")
+%   - Closing line: "Best regards," — not "Yours sincerely," or "Respectfully,"
+%   - For kim (DANDRITE Denmark): salutation is "Dear Thomas,"
+%   - For all others first contact: "Dear Prof. [Last Name],"
+%     except Netherlands/Belgium where "Dear [First Name]," is also fine
+%
+% WORD COUNT: 400–500 words. Never more than 1.5 pages.
+% Apply ALL rules from motivation_tips.md.
 % ─────────────────────────────────────────────────────────────────────────────
 
 \documentclass[11pt,a4paper]{letter}
@@ -61,8 +108,8 @@
 % Open with the scientific problem or a finding from the PI's key paper.
 % Do NOT start with "I am writing to express my interest."
 % Example opener: "Your 2019 Nature Neuroscience study demonstrated that human
-% microglia adopt a complexity of transcriptional states — including a CRM
-% signature absent in mouse models — that may fundamentally determine
+% microglia adopt a complexity of transcriptional states (including a CRM
+% signature absent in mouse models) that may fundamentally determine
 % vulnerability to Alzheimer's pathology."
 [PARAGRAPH 1]
 
@@ -77,9 +124,9 @@
 % ── PARAGRAPH 3: Specific fit with this lab (4–5 sentences) ──────────────────
 % Name 2–3 techniques this lab uses that Arina has performed.
 % Use the PI's vocabulary from pi_database.md.
-% Example: "Your group's multi-channel IF panels — combining IBA1, P2RY12, and
-% TREM2 with quantitative Fiji-based morphometry — mirror the approach I
-% developed at CSIR-IGIB..."
+% Example: "Your group's multi-channel IF panels (IBA1, P2RY12, and TREM2 with
+% quantitative Fiji-based morphometry) mirror the approach I developed at
+% CSIR-IGIB..."
 [PARAGRAPH 3]
 
 % ── PARAGRAPH 4: Forward-looking (3–4 sentences) ─────────────────────────────
